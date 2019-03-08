@@ -119,14 +119,14 @@ void Sample3DSceneRenderer::CreateDeviceDependentResources()
 		// Cube vertices. Each vertex has a position and a color.
 		VertexPositionColor cubeVertices[] =
 		{
-			{ XMFLOAT3(-0.5f, -0.5f, -0.5f), XMFLOAT3(0.0f, 0.0f, 0.0f) },
-			{ XMFLOAT3(-0.5f, -0.5f,  0.5f), XMFLOAT3(0.0f, 0.0f, 1.0f) },
-			{ XMFLOAT3(-0.5f,  0.5f, -0.5f), XMFLOAT3(0.0f, 1.0f, 0.0f) },
-			{ XMFLOAT3(-0.5f,  0.5f,  0.5f), XMFLOAT3(0.0f, 1.0f, 1.0f) },
-			{ XMFLOAT3(0.5f, -0.5f, -0.5f), XMFLOAT3(1.0f, 0.0f, 0.0f) },
-			{ XMFLOAT3(0.5f, -0.5f,  0.5f), XMFLOAT3(1.0f, 0.0f, 1.0f) },
-			{ XMFLOAT3(0.5f,  0.5f, -0.5f), XMFLOAT3(1.0f, 1.0f, 0.0f) },
-			{ XMFLOAT3(0.5f,  0.5f,  0.5f), XMFLOAT3(1.0f, 1.0f, 1.0f) },
+			{ XMFLOAT3(-0.5f, -0.5f, -0.5f),	XMFLOAT3(1.0f, 1.0f, 0.0f) },
+			{ XMFLOAT3(-0.5f, -0.5f,  0.5f),	XMFLOAT3(1.0f, 1.0f, 0.0f) },
+			{ XMFLOAT3(-0.5f,  0.5f, -0.5f),	XMFLOAT3(1.0f, 1.0f, 0.0f) },
+			{ XMFLOAT3(-0.5f,  0.5f,  0.5f),	XMFLOAT3(1.0f, 1.0f, 0.0f) },
+			{ XMFLOAT3(0.5f, -0.5f, -0.5f),		XMFLOAT3(1.0f, 1.0f, 0.0f) },
+			{ XMFLOAT3(0.5f, -0.5f,  0.5f),		XMFLOAT3(1.0f, 1.0f, 0.0f) },
+			{ XMFLOAT3(0.5f,  0.5f, -0.5f),		XMFLOAT3(1.0f, 1.0f, 0.0f) },
+			{ XMFLOAT3(0.5f,  0.5f,  0.5f),		XMFLOAT3(1.0f, 1.0f, 0.0f) },
 		};
 
 		const UINT vertexBufferSize = sizeof(cubeVertices);
